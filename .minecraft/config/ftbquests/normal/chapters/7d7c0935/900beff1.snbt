@@ -1,0 +1,24 @@
+{
+	title: "{icr.quests.900beff1.title}",
+	x: -11.0d,
+	y: -4.0d,
+	text: [
+		"{icr.quests.900beff1.text.1}"
+	],
+	dependencies: [
+		"ff6c656c"
+	],
+	tasks: [{
+		uid: "33617443",
+		type: "item",
+		items: [{
+			id: "thaumcraft:crystal_essence",
+			tag: {
+				Aspects: [{
+					amount: 1,
+					key: "victus"
+				}]
+			}
+		}]
+	}]
+}

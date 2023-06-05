@@ -1,0 +1,25 @@
+{
+	title: "{icr.quests.69c62f46.title}",
+	x: -1.5d,
+	y: -1.5d,
+	text: [
+		"{icr.quests.69c62f46.text.1}"
+	],
+	dependencies: [
+		"310b07ca"
+	],
+	tasks: [{
+		uid: "356dd63f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:itemmodularium"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "36e97d0a",
+		type: "item",
+		item: "modularmachinery:itemmodularium",
+		count: 32
+	}]
+}

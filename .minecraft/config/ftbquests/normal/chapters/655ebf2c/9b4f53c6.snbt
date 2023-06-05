@@ -1,0 +1,21 @@
+{
+	title: "{icr.quests.9b4f53c6.title}",
+	x: 12.0d,
+	y: 1.0d,
+	text: [
+		"{icr.quests.9b4f53c6.text.1}"
+	],
+	dependencies: [
+		"9231cd64"
+	],
+	tasks: [{
+		uid: "93f53939",
+		type: "item",
+		items: [{
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:carbon_monoxide_generator"
+			}
+		}]
+	}]
+}
